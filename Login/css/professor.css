@@ -55,7 +55,8 @@ input{
   outline: none;
   text-align: center;
   border: none;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.628);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.628);
+  border-right: 1px solid rgba(255, 255, 255, 0.628);
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.082);
   color: white;

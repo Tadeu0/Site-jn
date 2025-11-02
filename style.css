@@ -7,7 +7,7 @@
   
 }
 
-
+html,
 body {
   width: 100%;
   /*largura*/
@@ -19,6 +19,7 @@ body {
   
   background-attachment: fixed;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 .container {
