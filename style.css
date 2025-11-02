@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  
+}
+
+
+body {
+  width: 100%;
+  /*largura*/
+  min-height: 100vh;
+  /*minimo 100% da altura viewport*/
+  height: 100%;
+  /*altura*/
+  background-color: #ffffff;
+  
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.bar{
+position: fixed;
+min-width: 100%;
+max-height: 7vh;
+margin-top: -5px;
+padding: 10px;
+background-color: #10B981;
+padding-left: 200px;
+padding-right: 100px;
+-webkit-box-shadow: 0px 10px 13px -7px #666, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+box-shadow: 0px 10px 13px -7px #666, 5px 5px 15px 5px rgba(0, 0, 0, 0);  display: flex;
+align-items: center;
+
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  background-image: url(https://i1.sndcdn.com/artworks-0qrqy1yMfX0F6rW0-SNzt2A-t500x500.jpg);
+  background-size: cover;
+  background-color: white;
+  border-radius :50px;
+  border: none;
+  cursor: pointer;
+}
+#item{
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 5%;
+ width: 50%;
+ height: 80vh;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 0px 0px 5px 0px;
+ background-color: #cefced;
+}
+.log{
+ background-image: url(https://i1.sndcdn.com/artworks-0qrqy1yMfX0F6rW0-SNzt2A-t500x500.jpg);
+ background-size: cover;
+ background-color: #10B981;
+ width: 300px;
+ height: 300px;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 100%;
+ border: none;
+ margin-bottom: 20px;
+}
+#cancel{
+margin-top: 35px;
+margin-left: 80%;
+min-width: 15%;
+min-height: 5vh;
+border-radius: 5px;
+box-shadow: 0px 0px 5px 0px;
+cursor: pointer;
+background-color: #255701;
+color: white;
+font-weight: bold;
+}
+#cancel:hover{
+  background-color: #92fa48;
+  transition: 0.5s;
+}
+.desclog{
+ text-align: center; 
+ min-height: 20vh;
+ margin-bottom: 20px;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nickname{
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+#base{             
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #D1FAE5;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+.imagem{
+  background-image: url(https://snack-code-uploads.s3.us-west-1.amazonaws.com/~asset/9b702597469361cd0dc336baec757514);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center;
+  min-width: 40%;
+  min-height: 100vh;
+  margin-top: -5%;
+}
+.cont_titulo {
+ margin-left: 10%;
+ min-width: 10%;
+ margin-top: -10%;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+}
+
+.span1, .span2, .span3 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin-bottom: -15px;
+
+}
+
+.span1 {
+  color:#065F46;
+}
+
+.span2 {
+  color: #10B981;
+}
+
+.span3 {
+  color: #6EE7B7;
+}
+
+.sub-titulo {
+  margin-top: 20px; 
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  max-width: 70%;
+  margin-left: 55px;
+}
+
+.nav {
+  margin-left: 30%;
+  padding: 0%;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration : "none";
+  margin-right : "15px"
+}
+.nav a {
+  color: rgb(9, 57, 33);
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 50px;
+  cursor: pointer;
+  transform: translateY(5px);
+  transition: 1s;
+}
+
+.nav a:hover{
+  transform: scale(1);
+  transition: 0.5s;
+  color: rgb(0, 255, 128);
+}
+#informacoes{
+  background-color:#3f3f3f;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+}
+.inftitulo{
+margin-left: auto ;
+margin-right: auto;
+}
+.inftitulo, .inftitulo span{
+  width: 60%;
+  height: 10vh;
+  background-color:transparent;
+  font-family: serif;
+  font-size: 46px;
+  margin-top: -10%;
+  margin-bottom: 50px;
+  
+}
+.sobre_nois{
+  max-width: 80%;
+  min-height: 50vh;
+  font-size: 26px;
+  font-family: cursive;
+  color: white;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+#cate_estru{             
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Cate{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 5%;
+  max-width: 40%;
+  max-height: 10vh;
+  margin-bottom: 5%;
+}
+.dcateg{
+  min-width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card1, .card2, .card3{
+  min-width: 25%;
+  max-height: 40vh;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px 1px ;
+  display: flex ;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.text1, .text2, .text3{
+  font-size: 25px;
+  margin-top: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card1 img, .card2 img, .card3 img{
+  width: 100px;
+  height: 90px;
+  margin-top: 40px;
+}
+.catbot{
+  margin-top: 10%;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 1px 0.5px;
+  border: none;
+  min-width: 50%;
+  min-height: 5vh;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catbot:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+#sobre{
+   min-width: 100%;
+  min-height: 100vh;
+  background-color: #757575;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.span-text{
+  animation:span 3s infinite linear ;
+}
+
+@keyframes span{
+  0%{color: #92fa48;}
+  25%{color: #214f00;}
+  50%{color: #2a6203;}
+  75%{color: #2b6501b7;}
+  100%{color: #92fa48;}
+}
+
+
+.carrocel{
+  width: 50%;
+  height: 58vh;
+  background-color: #cefced;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  overflow-x: auto;
+  display: flex;
+
+}
