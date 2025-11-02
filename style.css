@@ -319,15 +319,3 @@ margin-right: auto;
 }
 
 
-.carrocel{
-  width: 50%;
-  height: 58vh;
-  background-color: #cefced;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  overflow-x: auto;
-  display: flex;
-
-}
